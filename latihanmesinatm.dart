@@ -58,12 +58,12 @@ void main(){
       sisa2 = sisa ~/ pecahan2;
       print('Rp. 50.000 = $sisa2 lembar');
     saldo = saldo - inputpenarikan;
-    } else {
+    }} else {
       var hasil = inputpenarikan ~/ pecahan2;
       print('Rp. 50.000 = $hasil lembar');
     saldo = saldo - inputpenarikan;
     }
-    }
+
     
     
   }
